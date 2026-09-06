@@ -183,11 +183,11 @@ Practice mode is the same engine with the seller cloud and coach note hidden unt
 ## 9. Build sequence
 
 **Now (this commit)**  
-Playable single-file trainer: title, two characters, two scenes, thought bubbles, rail, Learn/Practice, debrief.
+Playable trainer: title, two characters, two scenes, thought bubbles, rail, Learn/Practice, debrief.
 
 **Next**  
+- Wire Do/Don't stills as stage backgrounds.  
 - Third archetype (overloaded parent).  
-- Split `js/data.js` + `js/engine.js` + `css/app.css` once the script is stable.  
 - Optional GitHub Pages.  
 - A silent “replay with thoughts revealed” after Practice.  
 - Tonality chips you can tap (curious / certain / eager) that change how the same line lands.
@@ -204,3 +204,21 @@ Playable single-file trainer: title, two characters, two scenes, thought bubbles
 A new canvasser can play Learn on Dale, see the buyer think “don’t admit the stain,” ask the situation question anyway, watch the thought change to “fine, there’s a mark in the hall,” ride the rail to a kitchen-table presentation that only talks about the hall — and then explain in the debrief *why* the early pitch would have died.
 
 That is the whole product.
+
+---
+
+## 11. Visual plan and gradual field versions
+
+Two teaching surfaces sit on top of the engine.
+
+**Visual plan** (`docs/VISUAL_PLAN.md`) — each of the nine phases is a Do still and a Don't still. A simple-language version lives in the same file so a new person can learn the shape before the exact lines. Characters in the picture series: Jordan (seller) and Gene (homeowner). Same porch, then the same kitchen.
+
+**Gradual versions** (`docs/GRADUAL_VERSIONS.md`) — what Josias says after the 3/16 storm, one layer at a time:
+
+1. Door (name, team, free look, pictures, show-back). Stop.
+2. Look (facts and photos only).
+3. Show-back (they own the photos).
+4. Claim path (file, guide to approval, work for what they pay, deductible only).
+5. Loop (call together, CRM same hour, follow up on the claim).
+
+The engine still enforces NEPQ phase fit. The gradual book is the field script that maps onto that rail. Do not stack Version 4 on a person who only opened the door.
